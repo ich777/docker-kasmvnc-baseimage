@@ -1,2 +1,1 @@
-# docker-kasmvnc-baseimage
-
+A simple Debian baseimage with KasmVNC
