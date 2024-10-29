@@ -15,6 +15,3 @@ RUN cd /tmp && \
 RUN apt-get update && \
 	apt-get -y install --no-install-recommends fluxbox screen libxcomposite-dev libxcursor1 xauth && \
 	rm -rf /var/lib/apt/lists/* /tmp/kasmvncserver.deb
-
-ENV CUSTOM_RES_W=640
-ENV CUSTOM_RES_H=480
