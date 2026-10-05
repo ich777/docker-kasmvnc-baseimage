@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.authors="admin@minenet.at"
 LABEL org.opencontainers.image.source="https://github.com/ich777/docker-kasmvnc-baseimage"
 
 ARG KASMVNC="placeholder"
-ARG DIST_REL="bookworm"
+ARG DIST_REL="trixie"
 
 RUN cd /tmp && \
     KASMVNC_V="$(wget -qO- https://api.github.com/repos/kasmtech/KasmVNC/releases/latest | grep tag_name | cut -d '"' -f4 | sed 's/v//g')" && \
